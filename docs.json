@@ -1,0 +1,141 @@
+[
+  {
+    "Constant": [],
+    "submodules": [],
+    "Function": [],
+    "Variable": [],
+    "stripped_doc": [],
+    "Deprecated": [],
+    "desc": "Minimalist spoon for showing the number of spaces and currently active space",
+    "type": "Module",
+    "Constructor": [],
+    "doc": "Minimalist spoon for showing the number of spaces and currently active space\non macOS.\n\nExample configuration using `SpoonInstall.spoon`:\n````lua\n-- Use `SpoonInstall` to install and load the Spatial spoon\nspoon.SpoonInstall:andUse(\"Spatial\", {\n  -- Automatically start the spoon after installation\n  start = true,\n  config = {\n    -- Optionally provide a custom configuration\n    activeSpaceIcon = function(spaceNumber)\n      return string.format(\"[ %d ]\", spaceNumber)\n    end,\n    inactiveSpaceIcon = function(spaceNumber)\n      return string.format(\" %d \", spaceNumber)\n    end\n  }\n})\n```\n\nDownload: [https://github.com/majjoha/Spatial.spoon](https://github.com/majjoha/Spatial.spoon)",
+    "Field": [],
+    "Command": [],
+    "Method": [
+      {
+        "doc": "Starts Spatial\n\nParameters\n * None\n\nReturns:\n * The Spatial object",
+        "stripped_doc": [
+          "Starts Spatial",
+          "",
+          "Parameters",
+          " * None",
+          ""
+        ],
+        "name": "start",
+        "def": "Spatial:start()",
+        "notes": [],
+        "signature": "Spatial:start()",
+        "type": "Method",
+        "returns": [
+          " * The Spatial object"
+        ],
+        "desc": "Starts Spatial",
+        "parameters": []
+      },
+      {
+        "doc": "Stops Spatial\n\nParameters:\n * None\n\nReturns:\n * The Spatial object",
+        "stripped_doc": [
+          "Stops Spatial",
+          ""
+        ],
+        "name": "stop",
+        "def": "Spatial:stop()",
+        "notes": [],
+        "signature": "Spatial:stop()",
+        "type": "Method",
+        "returns": [
+          " * The Spatial object"
+        ],
+        "desc": "Stops Spatial",
+        "parameters": [
+          " * None",
+          ""
+        ]
+      },
+      {
+        "doc": "Updates the state of the menu bar\n\nParameters:\n * None\n\nReturns:\n * None",
+        "stripped_doc": [
+          "Updates the state of the menu bar",
+          ""
+        ],
+        "name": "updateMenuBar",
+        "def": "Spatial:updateMenuBar()",
+        "notes": [],
+        "signature": "Spatial:updateMenuBar()",
+        "type": "Method",
+        "returns": [
+          " * None"
+        ],
+        "desc": "Updates the state of the menu bar",
+        "parameters": [
+          " * None",
+          ""
+        ]
+      }
+    ],
+    "items": [
+      {
+        "doc": "Starts Spatial\n\nParameters\n * None\n\nReturns:\n * The Spatial object",
+        "stripped_doc": [
+          "Starts Spatial",
+          "",
+          "Parameters",
+          " * None",
+          ""
+        ],
+        "name": "start",
+        "def": "Spatial:start()",
+        "notes": [],
+        "signature": "Spatial:start()",
+        "type": "Method",
+        "returns": [
+          " * The Spatial object"
+        ],
+        "desc": "Starts Spatial",
+        "parameters": []
+      },
+      {
+        "doc": "Stops Spatial\n\nParameters:\n * None\n\nReturns:\n * The Spatial object",
+        "stripped_doc": [
+          "Stops Spatial",
+          ""
+        ],
+        "name": "stop",
+        "def": "Spatial:stop()",
+        "notes": [],
+        "signature": "Spatial:stop()",
+        "type": "Method",
+        "returns": [
+          " * The Spatial object"
+        ],
+        "desc": "Stops Spatial",
+        "parameters": [
+          " * None",
+          ""
+        ]
+      },
+      {
+        "doc": "Updates the state of the menu bar\n\nParameters:\n * None\n\nReturns:\n * None",
+        "stripped_doc": [
+          "Updates the state of the menu bar",
+          ""
+        ],
+        "name": "updateMenuBar",
+        "def": "Spatial:updateMenuBar()",
+        "notes": [],
+        "signature": "Spatial:updateMenuBar()",
+        "type": "Method",
+        "returns": [
+          " * None"
+        ],
+        "desc": "Updates the state of the menu bar",
+        "parameters": [
+          " * None",
+          ""
+        ]
+      }
+    ],
+    "name": "Spatial"
+  }
+]
