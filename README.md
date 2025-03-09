@@ -23,5 +23,9 @@ spoon.SpoonInstall:andUse("Spatial", {
 })
 ```
 
+## Inspiration
+- [Spaceman](https://github.com/Jaysce/Spaceman)
+- [WhichSpace](https://github.com/gechr/WhichSpace)
+
 ## License
 See [LICENSE](https://github.com/majjoha/voxctl/blob/main/LICENSE).
