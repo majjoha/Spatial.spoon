@@ -1,5 +1,4 @@
 # Spatial
-![Spatial](images/spatial.png)
 Minimalist spoon for showing the number of spaces and currently active space on
 macOS.
 
