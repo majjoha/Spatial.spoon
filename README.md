@@ -3,6 +3,15 @@ Minimalist spoon for showing the number of spaces and currently active space on
 macOS.
 
 ## Installation
+### Clone the repository
+```sh
+# Create the `Spoons` directory if it doesn't exist
+mkdir -p ~/.hammerspoon/Spoons
+
+# Clone the repository into the Spoons directory
+git clone https://github.com/majjoha/Spatial.spoon.git ~/.hammerspoon/Spoons/Spatial.spoon
+```
+
 ### Using [`SpoonInstall`](https://www.hammerspoon.org/Spoons/SpoonInstall.html):
 ```lua
 hs.loadSpoon("SpoonInstall")
